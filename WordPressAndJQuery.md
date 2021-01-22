@@ -53,4 +53,4 @@ When adding to only certain pages
 - Edit the WordPress page where you want the javascript to run,
 - Add the shortcode like this ```[my_script]``` 
 
-I see a use case for ```shortcodes``` when using random internet scripts to do different things or testing. So, keep in mind for that when using the  shortcode option, you'll need to add a new function to ```functions.php``` for every new script you add. 
+I could see a use case for ```shortcodes``` when using random internet scripts to do different things or testing. So, keep in mind for that when using the  shortcode option, you'll need to add a new function to ```functions.php``` for every new script you add. 
