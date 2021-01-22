@@ -1,4 +1,4 @@
-###WordPress and JQuery
+### WordPress and JQuery
 
 ##### Setup your JQuery/ javascript external file
 
