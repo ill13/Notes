@@ -1,4 +1,4 @@
-### WordPress and JQuery
+### WordPress, BootStrap, and JQuery
 
 ##### Setup your JQuery/ javascript external file
 
@@ -54,3 +54,14 @@ When adding to only certain pages
 - Add the shortcode like this ```[my_script]``` 
 
 I could see a use case for ```shortcodes``` when using random internet scripts to do different things or testing. However, keep in mind for that when using the shortcode option, you'll need to add a new function to ```functions.php``` for every new script you add. 
+
+
+##### Bootstrap
+
+To remove extra ```<p>```'s from WordPress default layouts
+
+```php
+remove_filter('the_content','wpautop';
+remove_filter('the_excerpt','wpautop';
+
+```
