@@ -2,13 +2,12 @@
 
 ##### Setup your JQuery/ javascript external file
 
-I'm not exactly sure how this works, I think it loads a separate copy of JQuery into memory, regardless, just encapsulate your JQuery like below and save it
-
 - Copy everything between ```<script>``` and ```</script>```
 - Add it to a new ```.js``` file 
 - Insert ```var $=jQuery.noConflict();``` as the first line of your new ```.js``` file
 - Save your new ```.js``` file to the root of your WordPress site.
 
+I'm not exactly sure how this works, I think it loads a separate copy of JQuery into memory, regardless, just encapsulate your JQuery like below and save it
 
 ```javascript
 
