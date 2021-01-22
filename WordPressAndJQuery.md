@@ -15,6 +15,7 @@ var $=jQuery.noConflict();
 
 $(document).ready(function () {
     //console.log( 'ready!' );
+    //your JQuery code here!
     
   });
 
