@@ -24,7 +24,7 @@ $(document).ready(function () {
 
 Your new file should look like above, (with your code inside) 
 
-In this snippet, I've put my javascript named  ```my_script.js``` at the root of my website; i.e., the same folder as ```wp-config.php```
+In this snippet, I've put my javascript file (named  ```my_script.js```) in/at the root of my website; i.e., the same folder as ```wp-config.php```
 
 ####Now edit your child theme's ```functions.php``` and add:
 
