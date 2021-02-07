@@ -4,12 +4,14 @@
 
 I'm not exactly sure how this works, I think it loads a separate copy of JQuery into memory, regardless, just encapsulate your JQuery like below and save it
 
-- Open your javascript or page containing javascript
+- Open your javascript file or the page containing javascript
 - Copy everything between ```<script>``` and ```</script>```
 - Add it to a new ```.js``` file 
 - Insert ```var $=jQuery.noConflict();``` as the first line of your new ```.js``` file
 - Save your new ```.js``` file to the root of your WordPress site.
 
+
+Your new file should look like the following;
 
 ```javascript
 
@@ -22,7 +24,7 @@ $(document).ready(function () {
 
 ````
 
-Your new file should look like above, (with your code inside) 
+except with your code inside. 
 
 In this snippet, I've put my javascript file (named  ```my_script.js```) in/at the root of my website; i.e., the same folder as ```wp-config.php```
 
@@ -61,7 +63,7 @@ I see a use case for ```shortcodes``` when using random internet scripts to do d
 
 ####Finally, (a) wrong way to add javascript
 
-Too lazy to add another file? Well just tack this onto the end of your ```functions.php```
+Too lazy to add another file? Well just tack this onto the end of your ```functions.php```!
 
 ```php
 
