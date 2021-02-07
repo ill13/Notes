@@ -26,7 +26,7 @@ $(document).ready(function () {
 
 except with your code inside. 
 
-#### Add to Wordpress's functions.php
+#### Next add to Wordpress's functions.php
 
 In this snippet, I've put my javascript file (named  ```my_script.js```) in/at the root of my website; i.e., the same folder as ```wp-config.php```
 
