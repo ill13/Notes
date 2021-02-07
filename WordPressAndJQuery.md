@@ -4,6 +4,7 @@
 
 I'm not exactly sure how this works, I think it loads a separate copy of JQuery into memory, regardless, just encapsulate your JQuery like below and save it
 
+- Open your javascript or page containing javascript
 - Copy everything between ```<script>``` and ```</script>```
 - Add it to a new ```.js``` file 
 - Insert ```var $=jQuery.noConflict();``` as the first line of your new ```.js``` file
@@ -23,9 +24,9 @@ $(document).ready(function () {
 
 Your new file should look like above, (with your code inside) 
 
-In this snippet, I've put my script called ```my_script.js``` at the root of my website; i.e., the same folder as ```wp-config.php```
+In this snippet, I've put my javascript named  ```my_script.js``` at the root of my website; i.e., the same folder as ```wp-config.php```
 
-####Now edit your child-theme's ```functions.php``` and add:
+####Now edit your child theme's ```functions.php``` and add:
 
 ```php
 
@@ -38,7 +39,7 @@ function add_my_script() {
 }
 ```
 
-####There's (at least) two ways that you can add your script to a page
+####There's (at least) two ways that you can add your javascript to a page
 
 To add to all WordPress pages:
 
@@ -101,7 +102,7 @@ add_action( 'wp_head', 'include_inline_style' );
 
 ```
 
-However you should really just include that in your ```styles.css```
+However you should really just include the CSS in your ```styles.css```
 
 
 #### Bootstrap
