@@ -26,9 +26,11 @@ $(document).ready(function () {
 
 except with your code inside. 
 
+#### Add to Wordpress's functions.php
+
 In this snippet, I've put my javascript file (named  ```my_script.js```) in/at the root of my website; i.e., the same folder as ```wp-config.php```
 
-####Now edit your child theme's ```functions.php``` and add:
+Now edit your child theme's ```functions.php``` and add:
 
 ```php
 
@@ -41,7 +43,7 @@ function add_my_script() {
 }
 ```
 
-####There's (at least) two ways that you can add your javascript to a page
+#### There's (at least) two ways that you can add your javascript to a page
 
 To add to all WordPress pages:
 
@@ -61,7 +63,7 @@ I see a use case for ```shortcodes``` when using random internet scripts to do d
 
 
 
-####Finally, (a) wrong way to add javascript
+#### Finally, (a) wrong way to add javascript
 
 Too lazy to add another file? Well just tack this onto the end of your ```functions.php```!
 
