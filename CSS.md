@@ -1,27 +1,38 @@
+#### CSS notes
 
-#### Some CSS notes
+||Selector|Example|Explanation|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|```*``` is all|```*```|```* {text-align: center;}```|Select all elements|
+|Id is ```#```| ```#id``` |```#name {text-decoration:: underline;}```| Select the element with the matching id='name'|
+|Class is ```.```|```.class```|```.title {color: red;}```|Selects all elements with matching class="title"|
+||```p```|```p {font-weight: bold;}```|Select all \<p> elements|
+||```element.class```|```p.intro {font: Arial;}```|Selects only \<p> elements with the class="intro"|
+||```element,element...```|```a, h1, p {text-align: center;}```|Group all \<a>,\<h1>,\<p>, elements|
+
+
+
+
+### Simple email obfuscate
+
+
+```<div id="dou"></div>```
+
+
 
 
 ```css
-/* transparent overlay on bg */
-#page { background: rgba(0, 0, 0, 0.7); }
-```
 
-```css
-/* email obfuscation */
-#email:before {
+#dou:before {
     content: "admin";
 }
 
-#email:after {
+#dou:after {
     content: "@example.com";
 }
 ```
 
-Now add a div with the id of ```email```, like so
+### CSS background overlay
 
-```html
-<div id='email></div>
+```css
+#page { background: rgba(0, 0, 0, 0.7); }
 ```
-Now your email will be an un-selectable, but visible bit of CSS!
-
