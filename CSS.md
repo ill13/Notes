@@ -1,8 +1,10 @@
 #### CSS notes
 
-|x|Selector|Example|Explanation|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|```*``` is all|```*```|```* {text-align: center;}```|Select all elements|
+| x | Selector | Example | Explanation |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| ```*``` is all | ```*``` | ```* {text-align: center;}``` | Select all elements |
+
+
 |Id is ```#```| ```#id``` |```#name {text-decoration:: underline;}```| Select the element with the matching id='name'|
 |Class is ```.```|```.class```|```.title {color: red;}```|Selects all elements with matching class="title"|
 ||```p```|```p {font-weight: bold;}```|Select all \<p> elements|
