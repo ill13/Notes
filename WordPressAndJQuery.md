@@ -108,6 +108,42 @@ add_action( 'wp_head', 'include_inline_style' );
 
 However you should really just include the CSS in your ```styles.css```
 
+#### Just ram it in!
+
+Add this to ```functions.php```
+
+```php
+function my_formatter($content) {
+    $new_content = '';
+    $pattern_full = '{(\[raw\].*?\[/raw\])}is';
+    $pattern_contents = '{\[raw\](.*?)\[/raw\]}is';
+    $pieces = preg_split($pattern_full, $content, -1, PREG_SPLIT_DELIM_CAPTURE);
+
+    foreach ($pieces as $piece) {
+        if (preg_match($pattern_contents, $piece, $matches)) {
+            $new_content .= $matches[1];
+        } else {
+            $new_content .= wptexturize(wpautop($piece));
+        }
+    }
+
+    return $new_content;
+}
+
+remove_filter('the_content', 'wpautop');
+remove_filter('the_content', 'wptexturize');
+
+add_filter('the_content', 'my_formatter', 99);
+```
+Now in any page add 
+
+```
+[raw]
+<script type="text/javascript">
+document.write('Im in ur contuntz, running ur skriptz!');
+</script>
+[/raw]
+```
 
 #### Bootstrap
 
