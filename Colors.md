@@ -32,17 +32,20 @@
 |LIGHT GREEN|![](https://placehold.it/64x28/8BC34A/FFFFFF?text=+)|#8BC34A|
 
 
+#### Pantone 2021
 
+|COTY|Color|Hex|COTY|Color|Hex|
+|:-|:-:|:-:|:-|:-:|:-:|
+|Illuminating|![](https://placehold.it/64x28/f3df4d/FFFFFF?text=+)|#f3df4d|Ultimate Grey|![](https://placehold.it/64x28/939597/FFFFFF?text=+)|#939597|
 
-
-
-
-
-
-
-
-
-
+|Name|Color|Hex|Name|Color|Hex|
+|:-|:-:|:-:|:-|:-:|:-:|
+|Rasberry Sorbet|![](https://placehold.it/64x28/cd4a77/FFFFFF?text=+)|#cd4a77|Green Ash|![](https://placehold.it/64x28/9fdbad/FFFFFF?text=+)|#9fdbad|
+|Burnt Coral|![](https://placehold.it/64x28/ec8b83/FFFFFF?text=+)|#ec8b83|Cerulean|![](https://placehold.it/64x28/98b2d1/FFFFFF?text=+)|#98b2d1|
+|Marigold|![](https://placehold.it/64x28/feae51/FFFFFF?text=+)|#feae51|French Blue|![](https://placehold.it/64x28/3078b4/FFFFFF?text=+)|#3078b4|
+|Illuminating|![](https://placehold.it/64x28/f3df4d/FFFFFF?text=+)|#f3df4d|Amethyst Orchid|![](https://placehold.it/64x28/9369a8/FFFFFF?text=+)|#9369a8|
+|Mint|![](https://placehold.it/64x28/00a779/FFFFFF?text=+)|#00a779|Rust|![](https://placehold.it/64x28/b35f44/FFFFFF?text=+)|#b35f44|
+|Inkwell|![](https://placehold.it/64x28/363945/FFFFFF?text=+)|#363945|Ultimate Grey|![](https://placehold.it/64x28/939597/FFFFFF?text=+)|#939597|
 
 
 #### Material Colors
@@ -92,6 +95,23 @@
 |LIGHT GREY|![](https://placehold.it/64x28/ECECEC/FFFFFF?text=+)|#ECECEC|
 
 
+#### Pantone 2021
+
+|Name|Color|Hex|
+|:-|:-:|:-:|
+|Rasberry Sorbet|![](https://placehold.it/64x28/cd4a77/FFFFFF?text=+)|#cd4a77|
+|Burnt Coral|![](https://placehold.it/64x28/ec8b83/FFFFFF?text=+)|#ec8b83 |
+|Marigold|![](https://placehold.it/64x28/feae51/FFFFFF?text=+)|#feae51|
+|Illuminating|![](https://placehold.it/64x28/f3df4d/FFFFFF?text=+)|#f3df4d|
+|Mint|![](https://placehold.it/64x28/00a779/FFFFFF?text=+)|#00a779|
+|Green Ash|![](https://placehold.it/64x28/9fdbad/FFFFFF?text=+)|#9fdbad|
+|Cerulean|![](https://placehold.it/64x28/98b2d1/FFFFFF?text=+)|#98b2d1|
+|French Blue|![](https://placehold.it/64x28/3078b4/FFFFFF?text=+)|#3078b4|
+|Amethyst Orchid|![](https://placehold.it/64x28/9369a8/FFFFFF?text=+)|#9369a8|
+|Rust|![](https://placehold.it/64x28/b35f44/FFFFFF?text=+)|#b35f44|
+
+
+
 
 #### My Palette OLD
 
@@ -105,6 +125,22 @@
 |SECONDARY|![](https://placehold.it/64x28/c08dd8/FFFFFF?text=+)|#C08DD8|![](https://placehold.it/64x28/aa66cc/FFFFFF?text=+)|#aa66cc|
 |DARK|![](https://placehold.it/64x28/212121/FFFFFF?text=+)|#666666|![](https://placehold.it/64x28/666666/FFFFFF?text=+)|#212121|
 |LIGHT|![](https://placehold.it/64x28/e0e0e0/FFFFFF?text=+)|#999999|![](https://placehold.it/64x28/999999/FFFFFF?text=+)|#E0E0E0|
+
+
+#### Pantone 2021
+
+|Name|Color|Hex|
+|:-|:-:|:-:|
+|Rasberry Sorbet|![](https://placehold.it/64x28/cd4a77/FFFFFF?text=+)|#cd4a77|
+|Burnt Coral|![](https://placehold.it/64x28/ec8b83/FFFFFF?text=+)|#ec8b83 |
+|Marigold|![](https://placehold.it/64x28/feae51/FFFFFF?text=+)|#feae51|
+|Illuminating|![](https://placehold.it/64x28/f3df4d/FFFFFF?text=+)|#f3df4d|
+|Mint|![](https://placehold.it/64x28/00a779/FFFFFF?text=+)|#00a779|
+|Green Ash|![](https://placehold.it/64x28/9fdbad/FFFFFF?text=+)|#9fdbad|
+|Cerulean|![](https://placehold.it/64x28/98b2d1/FFFFFF?text=+)|#98b2d1|
+|French Blue|![](https://placehold.it/64x28/3078b4/FFFFFF?text=+)|#3078b4|
+|Amethyst Orchid|![](https://placehold.it/64x28/9369a8/FFFFFF?text=+)|#9369a8|
+|Rust|![](https://placehold.it/64x28/b35f44/FFFFFF?text=+)|#b35f44|
 
 
 
