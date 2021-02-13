@@ -14,7 +14,7 @@
 |PRIMARY|![](https://placehold.it/64x28/73a5f7/FFFFFF?text=+)|#73A5F7|![](https://placehold.it/64x28/2196F3/FFFFFF?text=+)|#2196F3|![](https://placehold.it/64x28/EEEEEE/FFFFFF?text=+) |#EEEEEE|
 |SECONDARY|![](https://placehold.it/64x28/c08dd8/FFFFFF?text=+)|#C08DD8|![](https://placehold.it/64x28/aa66cc/FFFFFF?text=+)|#aa66cc|![](https://placehold.it/64x28/EEEEEE/FFFFFF?text=+) |#EEEEEE|
 |DARK|![](https://placehold.it/64x28/212121/FFFFFF?text=+)|#666666|![](https://placehold.it/64x28/666666/FFFFFF?text=+)|#212121|![](https://placehold.it/64x28/EEEEEE/FFFFFF?text=+) |#EEEEEE|
-|LIGHT|![](https://placehold.it/64x28/e0e0e0/FFFFFF?text=+)|#999999|![](https://placehold.it/64x28/999999/FFFFFF?text=+)|#E0E0E0|![](https://placehold.it/64x28/999999/FFFFFF?text=+) |#9999999|
+|LIGHT|![](https://placehold.it/64x28/e0e0e0/FFFFFF?text=+)|#999999|![](https://placehold.it/64x28/999999/FFFFFF?text=+)|#E0E0E0|![](https://placehold.it/64x28/999999/FFFFFF?text=+) |#999999|
 
 
 
