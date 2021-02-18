@@ -73,7 +73,7 @@ for info in list_of_names:
 And see what you get got for output!
 
 
-So that's pretty next, but our list is unclear. We don't know what the values of 23,18,42 or the colors Green, Red, Purple stand for. Are they ages or lucky numbers? What about those colors; are they eye colors or favorite colors?
+So that's pretty next, but our list is unclear. We don't know what the values of *23,18,42* or the colors *Green, Red, Purple* stand for. Are they ages or lucky numbers? What about those colors; are they eye colors or favorite colors?
 
 Well, this is where dictionaries come into play!
 
@@ -88,7 +88,7 @@ Dictionaries use:
 - ```,``` *commas* to separate key/value pairs
 
 ```python
-dict_of_name =  {'name':'alice','age':'23','fav_color','green'}
+
 
 dict_of_name =  {'User Name':'Alice'}
 ```
