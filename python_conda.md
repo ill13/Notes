@@ -1,7 +1,7 @@
 
 #### On Lambda:
 
-Lambda is basically a *one line function*
+Lambda is basically an *inline function*
 
 Effectively, these two exmaples do the same thing"
 
@@ -13,6 +13,14 @@ def rot13 (string):
     string= codecs.getencoder("rot-13")(string)[0]
     return string
 ```
+
+So if we want to break down the following
+```python
+rot13 = lambda s : codecs.getencoder("rot-13")(s)[0]
+```
+
+```lambda s``` **s** refers to the input variable(s)
+```:``` the **:** separates the input from the output function part
 
 
 ***
