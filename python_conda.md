@@ -1,4 +1,9 @@
 
+
+
+
+
+
 #### On Lambda:
 
 Lambda is basically an *inline function*
@@ -6,7 +11,7 @@ Lambda is basically an *inline function*
 Effectively, these two exmaples do the same thing"
 
 ```python
-rot13 = lambda s : codecs.getencoder("rot-13")(s)[0]
+rot13 = lambda string : codecs.getencoder("rot-13")(string)[0]
 ```
 ```python
 def rot13 (string):
@@ -14,17 +19,20 @@ def rot13 (string):
     return string
 ```
 
-So if we want to break down the following
+So if we want to break down the following lambda:
+
 ```python
-rot13 = lambda s : codecs.getencoder("rot-13")(s)[0]
+rot13 = lambda string : codecs.getencoder("rot-13")(string)[0]
 ```
+We will see that
 
-```lambda s``` **s** refers to the input variable(s)
-```:``` the **:** separates the input from the output function part
+```lambda string``` **string** refers to the input variable(s) that are ALSO returned
 
+```:``` the **:** separates the *input* from the *output function* part. Whatever the result of the *output function* is returned as ```lambda string``` 
 
-***
-Conda Install/config notes:
+Anyway if you want to be fancy, use ```lambda```. On the other hand, if you want to get stuff done and be easily readable, just use a function
+
+#### Conda Install/config notes:
 
 ```powershell
 conda create -n ENV_NAME python=3.7.3
