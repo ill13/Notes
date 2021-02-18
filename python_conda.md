@@ -105,7 +105,7 @@ Alice
 ```
 
 |Key/Name|Value|
-|-|-|-|
+|-|-|
 |'User Name'|'Alice'|
 
 Dictionaries are helpful because now you can look up stuff with a name, instead of a number!
@@ -262,7 +262,7 @@ pip install WooCommerce
 
 [^1]:(third because computers start counting from zero. It just is that way, but don't worry it'll make sense *why* much later)
 
-    |||||
+    | | | | |
     |-|-|-|-|
     |Real World Counting|1|2|3|
     |Computer Counting|0|1|2|
