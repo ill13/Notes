@@ -1,10 +1,10 @@
-#### Using ImageMagick to make a product box
+### Install older version of ImageMagick: 
 
 https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
 
 https://linoxide.com/tools/install-imagemagick-on-debian/
 
-### Install older version of ImageMagick: 
+
 - Install WSL
 - 6.8.3.9 or 6.7.6.10 or 6.8.2-10 should work
 - find the version you want here: 
