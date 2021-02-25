@@ -21,7 +21,7 @@ sudo make install
 sudo ldconfig /usr/local/lib
 ```
 
-### One the above is complete test with:
+### One the above is complete, you can test with:
 
 ```identify -list format``` check that PNG ability exists
 
@@ -33,7 +33,9 @@ Make an image that has the (as you are facing) the left side and the front
 
 
 ### Box making command
-Keep:
+
+http://www.fmwconcepts.com/imagemagick/3Dcover/index.php
+
 
 ```./3dcover  -s 279 -o 10 -m g -u 60 -p 6 -l .75 -F 80,50 -d 100 -r 75 -g 0.010 -v '#fff'  -b '#fff' -P 48  sf2.png out.png```
 ```
@@ -61,21 +63,6 @@ adjust H/S in ps: set to +48, +50, -2
 
 
 ***
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Bash
 ```bash
 # Generate a Spine Image
