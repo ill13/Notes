@@ -21,6 +21,7 @@ sudo make install
 sudo ldconfig /usr/local/lib
 ```
 
+### One the above is complete test with:
 
 ```identify -list format``` check that PNG ability exists
 
