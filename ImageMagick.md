@@ -1,9 +1,10 @@
-Using ImageMagick to make a product box
+####Using ImageMagick to make a product box
 
 https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
+
 https://linoxide.com/tools/install-imagemagick-on-debian/
 
-Install older version of ImageMagick: 
+### Install older version of ImageMagick: 
 - Install WSL
 - 6.8.3.9 or 6.7.6.10 or 6.8.2-10 should work
 - find the version you want here: 
@@ -30,6 +31,7 @@ sudo ldconfig /usr/local/lib
 Make an image that has the (as you are facing) the left side and the front
 
 
+### Box making command
 Keep:
 
 ```./3dcover  -s 279 -o 10 -m g -u 60 -p 6 -l .75 -F 80,50 -d 100 -r 75 -g 0.010 -v '#fff'  -b '#fff' -P 48  sf2.png out.png```
@@ -57,7 +59,7 @@ adjust H/S in ps: set to +48, +50, -2
 
 
 
-
+***
 
 
 
