@@ -1,4 +1,4 @@
-#### sing ImageMagick to make a product box
+#### Using ImageMagick to make a product box
 
 https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
 
