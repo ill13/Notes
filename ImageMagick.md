@@ -49,7 +49,7 @@ http://www.fmwconcepts.com/imagemagick/3Dcover/index.php
 -d 	100	diamter of vignette
 -r	75	ramp of vignette
 -g	0.010	gamma of vignette
--b none		(b)ackground set to none. Using PNG for transparency
+-b 	none	(b)ackground set to none. Using PNG for transparency
 -P	48	pad with 48 pixels all around
 
 sf.png		input file
