@@ -1,10 +1,13 @@
 ### InnoSetup
 
+```
+; This allows app to install in 'Program Files' versus 'Program Files x86'
+ArchitecturesInstallIn64BitMode=x64
+
 [UninstallRun]
-;Filename: "C:\Users\user\Nextcloud\location\source_code\save_settings_reg\dist\app\remove.ps1"; WorkingDir: "{app}"; Flags: shellexec runhidden
-
+;Move your uninstall script to your app creation folder, this will run on exit
 Filename: "powershell.exe";Parameters: "-ExecutionPolicy Bypass -File ""{app}\remove.ps1"""; WorkingDir: {app}; Flags: runhidden
-
+```
 
 
 ### Pyinstaller
