@@ -5,8 +5,17 @@
 ArchitecturesInstallIn64BitMode=x64
 
 [UninstallRun]
-;Move your uninstall script to your app creation folder, this will run on exit
+
+;Move your uninstall powershell script to your app creation folder, this will run your script as Admin on uninstall
 Filename: "powershell.exe";Parameters: "-ExecutionPolicy Bypass -File ""{app}\remove.ps1"""; WorkingDir: {app}; Flags: runhidden
+
+[Registry] 
+
+; This allows the app to elevate itself at runtime
+Root: "HKLM"; Subkey: "SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers"; ValueType: String; ValueName: "{app}\app.exe"; ValueData: "RUNASADMIN"; Flags: uninsdeletekeyifempty uninsdeletevalue; MinVersion: 0,6.1 
+
+
+
 ```
 
 
