@@ -1,6 +1,6 @@
 ### InnoSetup
 
-```shell
+```script
 ; This allows app to install in 'Program Files' versus 'Program Files x86'
 ArchitecturesInstallIn64BitMode=x64
 
