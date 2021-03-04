@@ -26,6 +26,14 @@ Root: "HKLM"; Subkey: "SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFla
 - make sure you are running 64bit python for admin elevation to work. 32bit fails silently
 - don't use onefile as to avoid being flagged as a virus
 - Checkout onedir too
+ - 'onedir' will likely make app seem like virus 
 - am using 3.5, but fails
 
 ```pyinstaller --noconsole --uac-admin --windowed --icon=app_icon.ico app.py```
+
+```pyinstaller --noconsole --uac-admin --windowed --icon=geofence_icon.ico geoFence.py```
+
+
+### Icons
+
+```convert geoFence_logo_256x256.png -define icon:auto-resize=256,64,48,32,16 my_icon.ico```
