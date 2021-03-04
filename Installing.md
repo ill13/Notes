@@ -36,4 +36,4 @@ Root: "HKLM"; Subkey: "SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFla
 
 ### Icons
 
-```convert geoFence_logo_256x256.png -define icon:auto-resize=256,64,48,32,16 my_icon.ico```
+```convert geoFence_logo_256x256.png -define icon:auto-resize=16,20,24,28,30,31,32,40,42,47,48,56,60,63,84,256 geofence_icon.ico```
