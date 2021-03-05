@@ -1,4 +1,34 @@
-### Conda Install/config notes:
+### 202010305 Conda install config
+
+
+- No systemwide python installed
+- No pandas 
+- no numpy
+- Use 3.6 to 3.7.2
+```
+conda create -n geofence python=3.7.2
+activate geofence
+conda install -c conda-forge psutil
+pip install woocommerce
+conda install -c conda-forge pyinstaller
+```
+Get an error msg about SSL not working
+
+- Open your miniconda ENV path ```C:\Users\YOUR_NAME\miniconda3\envs\YOUR_ENV``` 
+- Open ```C:\Users\YOUR_NAME\miniconda3\envs\YOUR_ENV\Library\bin\```
+- Select and copy all files ```libcrypto*``` and ```libssl*```
+- Paste selected files into  ```C:\Users\YOUR_NAME\miniconda3\envs\YOUR_ENV\DLLs```
+
+
+Build it
+
+
+
+
+
+
+
+### ~~Conda Install/config notes:~~
 
 ```powershell
 conda create -n ENV_NAME python=3.7.3
@@ -12,8 +42,6 @@ pip install country_converter # not working
 conda install cryptography
 conda install python=3.7.2 # not needed
 ```
-
-
     
 ```powershell
 conda create -n geoFence373 python=3.7.3
