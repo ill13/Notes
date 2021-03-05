@@ -1,0 +1,7 @@
+### Powershell
+
+So you want to run a script -and you are already in an elevated shell?
+
+```PowerShell.exe -ExecutionPolicy UnRestricted -File script.ps1```
+
+You could globally change execution policy, but that's like running as root all the time
