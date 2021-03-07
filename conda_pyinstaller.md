@@ -23,10 +23,20 @@ Get an error msg about SSL not working
 Build it
 
 
+### Conda force numpy to use smaller size version
 
+If default ```numpy``` is installed, expect ```pysinstaller``` to create a 650 megabyte executable
+```
+conda install conda-forge::blas=*=openblas
 
+conda install -c conda-forge numpy
+```
 
-
+```
+conda create -n gfx
+conda activate gfx
+conda install Pillow
+```
 
 ### ~~Conda Install/config notes:~~
 
