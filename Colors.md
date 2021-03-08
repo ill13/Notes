@@ -1,3 +1,20 @@
+```
+color_dict = {'DANGER_MAT':'#CC0000','DANGER':'#ff3547','WARNING_MAT':'#FF8800','WARNING':'#ffbb33','SUCCESS_MAT':'#007E33','SUCCESS':'#00c851','INFO':'#33b5e5','INFO_MAT':'#0099CC','PRIMARY':'#2196F3','SECONDARY':'#aa66cc','DARK':'#212121','LIGHT':'#E0E0E0'}
+
+new_color_dict = {
+    'DANGER_MAT': {'DARK': '#CC0000', 'LIGHT': '#FF4444'}, 
+    'DANGER': {'DARK': '#ff3547', 'LIGHT': '#FF99A2'}, 
+    'WARNING_MAT': {'DARK': '#FF8800', 'LIGHT': '#FFBB33'}, 
+    'WARNING': {'DARK': '#ffbb33', 'LIGHT': '#FFDD99'}, 
+    'SUCCESS_MAT': {'DARK': '#007E33', 'LIGHT': '#00C851'}, 
+    'SUCCESS': {'DARK': '#00c851', 'LIGHT': '#38FF88'}, 
+    'INFO_MAT': {'DARK': '#0099CC', 'LIGHT': '#33B5E5'}, 
+    'INFO': {'DARK': '#8ED6F1', 'LIGHT': '#33b5e5'}, 
+    'PRIMARY': {'DARK': '#2196F3', 'LIGHT': '#73A5F7'}, 
+    'SECONDARY': {'DARK': '#aa66cc', 'LIGHT': '#C08DD8'}, 
+    'DARK': {'DARK': '#212121', 'LIGHT': '#666666'}, 
+    'LIGHT': {'DARK': '#999999', 'LIGHT': '#E0E0E0'}}
+```
 
 #### My Palette New
 
