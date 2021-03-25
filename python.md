@@ -236,6 +236,27 @@ Anyway if you want to be fancy, use ```lambda```. On the other hand, if you want
 
 
 
+
+
+***
+### Ternary
+
+Default is '```False``` first', versus other languages which are '```True``` first'
+```python
+
+some_variable = ((thing_to_do_if_false,thing_to_do_if_true)[state_true_or_false])
+
+result = {True: x, False: y}[a > b]
+
+gui.window[event].update(image_data=((gfx.IMG_SW_OFF,gfx.IMG_SW_ON)[gui.window[event].metadata]))
+gui.window[event].update(image_data=gfx.IMG_SW_ON if gui.window[event].metadata else gfx.IMG_SW_OFF)
+
+gui.window[event].update(image_data= {True: gfx.IMG_SW_ON, False: gfx.IMG_SW_OFF}[gui.window[event].metadata]
+
+
+```
+
+***
 [^1]:(third because computers start counting from zero. It just is that way, but don't worry it'll make sense *why* much later)
 
     | | | | |
