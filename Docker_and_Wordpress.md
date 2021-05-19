@@ -72,5 +72,6 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
 
 ***
 
-NOTES: The ```delegated``` part after ```mysql``` makes Wordpress much faster 
-
+NOTES: 
+- The ```delegated``` part after ```mysql``` makes Wordpress much faster 
+- https://github.com/docker-library/wordpress/issues/375#issuecomment-463312572
