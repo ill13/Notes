@@ -87,5 +87,28 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
 ***
 
 NOTES: 
-- The ```delegated``` part after ```mysql``` makes Wordpress much faster 
+- ~~The ```delegated``` part after ```mysql``` makes Wordpress much faster~~
 - https://github.com/docker-library/wordpress/issues/375#issuecomment-463312572
+
+***
+~~#### Surprise! Docker doesn't save!~~
+
+1. Get a list of ```CONTAINER ID```s with:
+
+```
+docker ps -a
+```
+
+2. Commit changes with:
+
+```
+docker commit [CONTAINER_ID] [new_image_name]
+```
+My example: 
+```
+docker commit b78ad79ce2be wordpress_save
+```
+~~
+
+
+
