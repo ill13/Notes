@@ -17,7 +17,7 @@
 3. Create a new ```docker-compose.yml``` in the ```wordpress``` directory you just created and paste the content below. 
    
 
-    ```yml
+```yml
 
 version: '2.0'
 
@@ -51,8 +51,8 @@ services:
        WORDPRESS_DB_NAME: wordpress
 volumes:
     db_data: {}
-
-    ```
+    
+```
 
 
 4. Also create a file called ```uploads.ini``` and edit it to add the following:
