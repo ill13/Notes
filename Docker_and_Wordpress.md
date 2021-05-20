@@ -2,8 +2,8 @@
 
 #### Setup Windows and Docker
 1. Enable Hyper-V in your system.
-2. Download Docker Desktop for Windows and open the Docker for Windows Installer file.
-3. Install Docker Desktop
+2. Download **Docker Desktop for Windows**.
+3. Install **Docker Desktop**
 
 #### Setup Wordpress
 
