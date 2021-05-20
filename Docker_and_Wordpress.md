@@ -84,7 +84,6 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
     ```
 6. Open your browser and enter ```localhost:8000``` to display the WordPress setup screen
 
-***
 
 NOTES: 
 - ~~The ```delegated``` part after ```mysql``` makes Wordpress much faster~~
@@ -108,7 +107,6 @@ My example:
 ```
 docker commit b78ad79ce2be wordpress_save
 ```
-~~
 
 
 
