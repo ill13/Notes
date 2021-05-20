@@ -19,13 +19,17 @@
 
 ```yml
 
-version: '2.0'
+version: '2.2'
+
+# removed '- db_data:/var/lib/mysql:delegated'
+# Added caching
+
 
 services:
    db:
      image: mysql:5.7
      volumes:
-       - db_data:/var/lib/mysql:delegated
+       - db_data:/var/lib/mysql
      restart: always
      environment:
        MYSQL_ROOT_PASSWORD: wordpress
@@ -40,9 +44,17 @@ services:
        - "8000:80"
      volumes:
       # Saves ALL plugin content
-      - ./wp-app:/var/www/html
+      #- ./wp-app:/var/www/html
+      - type: bind
+        source: ./wp-app
+        target: /var/www/html
+        consistency: cached
       # Basically this is 'PHP.ini'
-      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+     # - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - type: bind
+        source: ./uploads.ini
+        target: /usr/local/etc/php/conf.d/uploads.ini
+        consistency: cached
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
