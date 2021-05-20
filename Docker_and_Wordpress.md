@@ -19,36 +19,38 @@
 
     ```yml
 
-    version: '3.3'
+version: '2.0'
 
-    services:
-    db:
-        image: mysql:5.7
-        volumes:
-        - db_data:/var/lib/mysql:delegated
-        restart: always
-        environment:
-        MYSQL_ROOT_PASSWORD: wordpress
-        MYSQL_DATABASE: wordpress
-        MYSQL_USER: wordpress
-        MYSQL_PASSWORD: wordpress
-
-    wordpress:
-        depends_on:
-        - db
-        image: wordpress:latest
-        ports:
-        - "8000:80"
-        volumes:
-        - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
-        restart: always
-        environment:
-        WORDPRESS_DB_HOST: db:3306
-        WORDPRESS_DB_USER: wordpress
-        WORDPRESS_DB_PASSWORD: wordpress
-        WORDPRESS_DB_NAME: wordpress
-    volumes:
-        db_data: {}
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql:delegated
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: wordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     volumes:
+      # Saves ALL plugin content
+      - ./wp-app:/var/www/html
+      # Basically this is 'PHP.ini'
+      - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+volumes:
+    db_data: {}
 
     ```
 
