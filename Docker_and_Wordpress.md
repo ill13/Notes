@@ -90,7 +90,7 @@ NOTES:
 - https://github.com/docker-library/wordpress/issues/375#issuecomment-463312572
 
 ***
-~~#### Surprise! Docker doesn't save!~~
+#### ~~Surprise! Docker doesn't save!~~
 
 1. Get a list of ```CONTAINER ID```s with:
 
