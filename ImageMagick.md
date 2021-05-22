@@ -1,3 +1,59 @@
+### ImageMagick, WSL (Debian), Python, VSCode
+
+https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
+https://linoxide.com/tools/install-imagemagick-on-debian/
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+
+Install WSL / Setup WSL
+	https://pbpython.com/wsl-python.html
+
+Update to WSL2
+	Pretty much just download and install
+	https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
+	
+	
+
+Install bunch of stuff	
+
+```sudo apt-get install bc wget build-essential checkinstall libx11-dev libxext-dev zlib1g-dev libjpeg-dev libfreetype6-dev libxml2-dev libpng-dev```
+
+Install older version of ImageMagick: 
+	6.8.3.9 or 6.7.6.10 or 6.8.2-10 should work
+	find the version you want here: 
+		https://sourceforge.net/projects/imagemagick/files/old-sources/6.x/
+		
+	```
+	wget https://sourceforge.net/projects/imagemagick/files/old-sources/6.x/6.8/ImageMagick-6.8.2-10.tar.gz/download
+	rename the file called 'download' to 'ImageMagick-6.8.2-10.tar.gz'
+	cp download ImageMagick-6.8.2-10.tar.gz
+	tar -xzvf ImageMagick-6.8.2-10.tar.gz
+	cd ImageMagick-6.8.2-10
+	sudo ./configure
+	sudo make
+	sudo make install
+	sudo ldconfig /usr/local/lib
+	```
+check that PNG exists
+	```identify -list format```
+
+
+make current directory a part of PATH so scripts (in the directory) can work
+	```export PATH=$PATH:$PWD ```
+
+
+
+***
+
+
+
+
+
+
+
+
+
+
 ### Install older version of ImageMagick: 
 
 https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
