@@ -19,8 +19,9 @@
 
 ```yml
 
-version: '2.2'
+version: '2.3'
 
+# Removed local volumes for speed, removed caching
 # removed '- db_data:/var/lib/mysql:delegated'
 # Added caching
 
@@ -43,18 +44,8 @@ services:
      ports:
        - "8000:80"
      volumes:
-      # Saves ALL plugin content
-      #- ./wp-app:/var/www/html
-      - type: bind
-        source: ./wp-app
-        target: /var/www/html
-        consistency: cached
-      # Basically this is 'PHP.ini'
-     # - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
-      - type: bind
-        source: ./uploads.ini
-        target: /usr/local/etc/php/conf.d/uploads.ini
-        consistency: cached
+        - wp-app:/var/www/html
+        - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
@@ -63,6 +54,7 @@ services:
        WORDPRESS_DB_NAME: wordpress
 volumes:
     db_data: {}
+    wp-app: {}
     
 ```
 
