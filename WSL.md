@@ -1,5 +1,6 @@
 ### WSL & Docker consuming too much RAM?
 
+1. Open your user folder ```c:\users\[YOUR_NAME]```
 1. In your user folder create a file named ```.wslconfig```
 2. Edit ```.wslconfig``` and add:
 
