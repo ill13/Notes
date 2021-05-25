@@ -76,7 +76,11 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
     ```
 6. Open your browser and enter ```localhost:8000``` to display the WordPress setup screen
 
-
+7. You have no text editor in the mysql image...so you need to:
+    ```
+    apt-get update
+    apt-get install nano
+    ```
 NOTES: 
 - ~~The ```delegated``` part after ```mysql``` makes Wordpress much faster~~
 - https://github.com/docker-library/wordpress/issues/375#issuecomment-463312572
