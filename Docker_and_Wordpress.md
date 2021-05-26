@@ -1,4 +1,4 @@
-### Wordpress and Docker
+### Wordpress, Docker, WSL
 
 #### Setup Windows and Docker
 1. Enable Hyper-V in your system.
@@ -81,6 +81,14 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
     apt-get update
     apt-get install nano
     ```
+8. In c:\users\[USERNAME] create a file names ```.wslconfig``` and insert the following text:
+
+    ```
+    [wsl2]
+    memory=1.5GB # Limits VM memory in WSL 2 to N GB
+    processors=2 # Makes the WSL 2 VM use N virtual processors
+    ```
+    
 NOTES: 
 - ~~The ```delegated``` part after ```mysql``` makes Wordpress much faster~~
 - https://github.com/docker-library/wordpress/issues/375#issuecomment-463312572
