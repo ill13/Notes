@@ -81,7 +81,7 @@ This will fix the Wordpress ``max_upload`` file size issue which you will run in
     apt-get update
     apt-get install nano
     ```
-8. In c:\users\[USERNAME] create a file names ```.wslconfig``` and insert the following text:
+8. In ```c:\users\[USERNAME]``` create a file named ```.wslconfig``` and insert the following text:
 
     ```
     [wsl2]
