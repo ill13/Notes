@@ -69,19 +69,22 @@ volumes:
 
 This will fix the Wordpress ``max_upload`` file size issue which you will run into later
 
-5. Run this command in the ```wordpress``` directory to create the containers: 
+5. The ```volumes:``` stuff is is what does the saving of stuff [otherwise known as 'persistence']. 
+
+
+6. Run this command in the ```wordpress``` directory to create the containers: 
 
     ```powershell
     docker-compose up -d
     ```
-6. Open your browser and enter ```localhost:8000``` to display the WordPress setup screen
+7. Open your browser and enter ```localhost:8000``` to display the WordPress setup screen
 
-7. You have no text editor in the mysql image...so you need to:
+8. You have no text editor in the mysql image...so you need to:
     ```
     apt-get update
     apt-get install nano
     ```
-8. In ```c:\users\[USERNAME]``` create a file named ```.wslconfig``` and insert the following text:
+9.  In ```c:\users\[USERNAME]``` create a file named ```.wslconfig``` and insert the following text:
 
     ```
     [wsl2]
