@@ -26,7 +26,7 @@ new_color_dict = {
 
 |Name|Active|Hex|Background|Hex|Text|Hex|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
-|DANGER MAT|<span style="color:#ff4444">████</span>|#FF4444|<span style="color:#cc0000">████</span>|`#CC0000`|<span style="color:#EEEEEE">████</span> |`#EEEEEE`|
+|DANGER MAT|<span style="color:#ff4444">████</span>|#FF4444|<span style="color:#cc0000">████</span>|#CC0000|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |DANGER|<span style="color:#ff99a2">████</span>|#FF99A2|<span style="color:#cc0000">████</span>|#ff3547|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |WARNING MAT|<span style="color:#FFBB33">████</span>|#FFBB33|<span style="color:#FF8800">████</span>|#FF8800|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |WARNING|<span style="color:#ffdd99">████</span>|#FFDD99|<span style="color:#ffbb33">████</span>|#ffbb33|<span style="color:#EEEEEE">████</span> |#EEEEEE|
