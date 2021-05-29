@@ -2,7 +2,7 @@
 
 
 
-
+ <span color="red">redtext</span>
 
 ```
 color_dict = {'DANGER_MAT':'#CC0000','DANGER':'#ff3547','WARNING_MAT':'#FF8800','WARNING':'#ffbb33','SUCCESS_MAT':'#007E33','SUCCESS':'#00c851','INFO':'#33b5e5','INFO_MAT':'#0099CC','PRIMARY':'#2196F3','SECONDARY':'#aa66cc','DARK':'#212121','LIGHT':'#E0E0E0'}
