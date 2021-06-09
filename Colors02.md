@@ -27,12 +27,12 @@ new_color_dict = {
 |Name|Active|Hex|Background|Hex|Text|Hex|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|
 |DANGER MAT|<span style="color:#ff4444">████</span>|#FF4444|<span style="color:#cc0000">████</span>|#CC0000|<span style="color:#EEEEEE">████</span> |#EEEEEE|
-|DANGER|<span style="color:#ff99a2">████</span>|#FF99A2|<span style="color:#cc0000">████</span>|#ff3547|<span style="color:#EEEEEE">████</span> |#EEEEEE|
+|DANGER|<span style="color:#ff99a2">████</span>|#FF99A2|<span style="color:#ff3547">████</span>|#ff3547|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |WARNING MAT|<span style="color:#FFBB33">████</span>|#FFBB33|<span style="color:#FF8800">████</span>|#FF8800|<span style="color:#EEEEEE">████</span> |#EEEEEE|
-|WARNING|<span style="color:#ffdd99">████</span>|#FFDD99|<span style="color:#ffbb33">████</span>|#ffbb33|<span style="color:#EEEEEE">████</span> |#EEEEEE|
+|WARNING|<span style="color:#ffdd99">████</span>|#FFDD99|<span style="color:#ffeb3b">████</span>|#FFEB3B|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |SUCCESS MAT|<span style="color:#00C851">████</span>|#00C851|<span style="color:#007E33">████</span>|#007E33|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |SUCCESS|<span style="color:#38ff88">████</span>|#38FF88|<span style="color:#00c851">████</span>|#00c851|<span style="color:#EEEEEE">████</span> |#EEEEEE|
-|INFO|<span style="color:#8ed6f1">████</span>|#8ED6F1|<span style="color:#33b5e5">████</span>|#33b5e5|<span style="color:#EEEEEE">████</span> |#EEEEEE|
+|INFO|<span style="color:#8ed6f1">████</span>|#8ED6F1|<span style="color:#03A9F4">████</span>|#03A9F4|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |INFO MAT|<span style="color:#33B5E5">████</span>|#33B5E5|<span style="color:#0099CC">████</span>|#0099CC|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |PRIMARY|<span style="color:#73a5f7">████</span>|#73A5F7|<span style="color:#2196F3">████</span>|#2196F3|<span style="color:#EEEEEE">████</span> |#EEEEEE|
 |SECONDARY|<span style="color:#c08dd8">████</span>|#C08DD8|<span style="color:#aa66cc">████</span>|#aa66cc|<span style="color:#EEEEEE">████</span> |#EEEEEE|
