@@ -1,3 +1,17 @@
+### 20210623 Conda install config
+
+
+- No pandas 
+- no numpy
+- Using Python 3.7.2
+- 
+```
+conda create -n veritasr python=3.7.2
+activate veritasr
+conda install -c conda-forge pyinstaller
+pyinstaller --uac-admin --windowed --icon=camDown48.ico camDown.py
+```
+
 ### 202010305 Conda install config
 
 
