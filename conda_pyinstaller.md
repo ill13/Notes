@@ -14,8 +14,9 @@ pyinstaller --uac-admin --windowed --icon=WEBCAM_ON.ico camDown.py
 
 If you get the error like ```failed to execute script```:
 - make sure the correct ```conda``` dev environment is active in VSCode
-- compile app within VSCode ```pyinstaller camDown.py```
+- compile app within VSCode: ```pyinstaller camDown.py```
 - move to ```dist\app_name``` directory and execut your app via command line 
+- ```.\dist\camDown\camDown.exe```
 - should see error on the command line
 
 ### 202010305 Conda install config
