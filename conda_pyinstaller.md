@@ -9,8 +9,14 @@
 conda create -n veritasr python=3.7.2
 activate veritasr
 conda install -c conda-forge pyinstaller
-pyinstaller --uac-admin --windowed --icon=camDown48.ico camDown.py
+pyinstaller --uac-admin --windowed --icon=WEBCAM_ON.ico camDown.py
 ```
+
+If you get the error like ```failed to execute script```:
+- make sure the right environment is active in VSCode
+- compile app within VSCode
+- move to ```dist\app_name``` directory and execut your app via command line 
+- should see error on the command line
 
 ### 202010305 Conda install config
 
