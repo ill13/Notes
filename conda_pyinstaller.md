@@ -49,7 +49,7 @@ Get an error msg about SSL not working
 Build it
 
 
-### Conda force numpy to use smaller size version
+### Force numpy to use smaller size version under conda
 
 If default ```numpy``` is installed, expect ```pysinstaller``` to create a 650 megabyte executable
 ```
