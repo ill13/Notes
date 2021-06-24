@@ -2,7 +2,7 @@
 
 
 - No pandas 
-- no numpy
+- Mo numpy
 - Using Python 3.7.2
 - Default pyinstaller (4.3)
 ```
@@ -13,16 +13,16 @@ pyinstaller --uac-admin --windowed --icon=WEBCAM_ON.ico camDown.py
 ```
 
 If you get the error like ```failed to execute script```:
-- make sure the correct ```conda``` dev environment is active in VSCode
-- compile app within VSCode: ```pyinstaller camDown.py```
-- move to ```dist\app_name``` directory and execut your app via command line 
+- Make sure the correct ```conda``` dev environment is active in VSCode
+- Compile app within VSCode: ```pyinstaller camDown.py```
+- Move to ```dist\app_name``` directory and execut your app via command line 
 - ```.\dist\camDown\camDown.exe```
-- should see error on the command line
+- You should see error on the command line
 
-If ```onefile``` fails
--Make **sure** you have ```shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE```
--```subprocess.check_output(command, shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE).decode('utf-8')```
--build with: ```pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py```
+If ```onefile``` fails"
+- Make **sure** you have ```shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE```
+- ```subprocess.check_output(command, shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE).decode('utf-8')```
+- Build with: ```pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py```
 
 ### 202010305 Conda install config
 
