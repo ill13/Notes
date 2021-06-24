@@ -2,7 +2,7 @@
 
 
 - No pandas 
-- Mo numpy
+- No numpy
 - Using Python 3.7.2
 - Default pyinstaller (4.3)
 ```
