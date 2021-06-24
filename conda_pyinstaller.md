@@ -4,7 +4,7 @@
 - No pandas 
 - no numpy
 - Using Python 3.7.2
-- 
+- Default pyinstaller (4.3)
 ```
 conda create -n veritasr python=3.7.2
 activate veritasr
@@ -14,7 +14,7 @@ pyinstaller --uac-admin --windowed --icon=WEBCAM_ON.ico camDown.py
 
 If you get the error like ```failed to execute script```:
 - make sure the right environment is active in VSCode
-- compile app within VSCode
+- compile app within VSCode ```pyinstaller camDown.py```
 - move to ```dist\app_name``` directory and execut your app via command line 
 - should see error on the command line
 
