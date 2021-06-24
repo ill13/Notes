@@ -19,7 +19,7 @@ If you get the error ```failed to execute script```:
 - ```.\dist\camDown\camDown.exe```
 - You should see error on the command line
 
-If ```onefile``` fails"
+If ```onefile``` fails
 - Make **sure** you have ```shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE```
 - ```subprocess.check_output(command, shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE).decode('utf-8')```
 - Build with: ```pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py```
