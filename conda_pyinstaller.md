@@ -19,6 +19,11 @@ If you get the error like ```failed to execute script```:
 - ```.\dist\camDown\camDown.exe```
 - should see error on the command line
 
+If ```onefile``` fails
+-Make **sure** you have ```shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE```
+-```subprocess.check_output(command, shell=True, stderr=subprocess.PIPE, stdin=subprocess.PIPE).decode('utf-8')```
+-build with: ```pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py```
+
 ### 202010305 Conda install config
 
 
