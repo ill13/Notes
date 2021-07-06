@@ -1,3 +1,8 @@
+### 20210705
+- Build your own pysinstaller
+- Use 4.2 or 3.6
+- Pyinstaller spec files have an “excludes” field, or something like that name - I recommend excluding numpy, PIL, and Scipy with pygame.
+
 ### 20210623 Conda install config
 
 
