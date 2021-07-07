@@ -3,6 +3,12 @@
 - Use 4.2 or 3.6
 - Pyinstaller spec files have an “excludes” field, or something like that name - I recommend excluding numpy, PIL, and Scipy with pygame.
 
+```
+conda activate veritasr
+pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py
+```
+
+
 ### 20210623 Conda install config
 
 
