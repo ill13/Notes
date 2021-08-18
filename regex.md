@@ -12,7 +12,7 @@
 
 
 
-
+#### Notepad++ add ```some_text``` to every line
 1. Press ```Ctrl+H``` to bring up the Find/Replace Dialog.
 2. Choose the ```Regular expression``` option near the bottom of the dialog.
 
