@@ -30,3 +30,23 @@ To add a word, such as ```test```, at the **end of each line**:
 - Place cursor in the first line of the file to ensure all lines are affected
 - Click ```Replace All``` button
 
+
+
+#### Notepad++ add ```"``` to  beginnign and end of every line
+
+To add a word, such as ```"```, at the **beginning and end of each line**:
+
+- Type ```(.+)``` in the Find what textbox
+- Type ```"\1"``` in the Replace with textbox
+- Place cursor in the first line of the file to ensure all lines are affected
+- Click ```Replace All``` button
+
+Find (change to extended mode):
+
+- Type ```\r\n``` in the Find what textbox
+- Type ```, ``` in the Replace with textbox
+- Place cursor in the first line of the file to ensure all lines are affected
+- Click ```Replace All``` button
+
+
+
