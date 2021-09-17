@@ -1,5 +1,13 @@
 ### WordPress and JQuery
 
+#### Add javascript to Elementor:
+
+- Edit the page on which you want to place the js using Elementor.
+- Click the ```Edit with Elementor``` button to edit the page with Elementor.
+- Drag-and-drop the HTML widget on the page.
+- The HTML widget settings panel will display on the left-hand side.
+- Insert the js code in the HTML Code field that is available in the HTML widget settings panel.
+
 #### Setup your JQuery/ javascript external file
 
 I'm not exactly sure how this works, I think it loads a separate copy of JQuery into memory, regardless, just encapsulate your JQuery like below and save it
