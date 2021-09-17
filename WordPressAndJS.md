@@ -1,4 +1,5 @@
-### WordPress and JQuery
+
+https://stackoverflow.com/questions/51341915/how-do-i-import-animejs-into-my-wordpress-theme
 
 #### Add javascript to Elementor:
 
@@ -7,6 +8,8 @@
 - Drag-and-drop the HTML widget on the page.
 - The HTML widget settings panel will display on the left-hand side.
 - Insert the js code in the HTML Code field that is available in the HTML widget settings panel.
+
+### WordPress and JQuery
 
 #### Setup your JQuery/ javascript external file
 
