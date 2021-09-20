@@ -9,12 +9,13 @@ conda install -c conda-forge pyinstaller
 ```
 ```pyinstaller --noconfirm main.py```
 
-Execute via CLI so you can see errors...Be sure to copy qml folders ansd files [see your runtime errors]
+Execute via CLI so you can see errors...Be sure to copy qml folders and files [see your runtime errors]
 
-After functions without error do:
+After exe is able to be run without errors, do this:
 
 ```pyinstaller --windowed --noconfirm main.py```
 
+Should be done?
 
 ***
 
