@@ -16,7 +16,7 @@ After functions without error do:
 ```pyinstaller --windowed --noconfirm main.py```
 
 
-
+***
 
 ### 20210705
 - Build your own pyinstaller
@@ -28,7 +28,7 @@ conda activate veritasr
 pyinstaller --onefile --uac-admin --windowed --icon=WEBCAM_ON.ico --noconfirm camDown.py
 ```
 
-
+***
 ### 20210623 Conda install config
 
 
