@@ -7,10 +7,11 @@ conda install -c conda-forge pyside6  [doesn't work]
 pip install pyside6 [does work]
 conda install -c conda-forge pyinstaller
 ```
+```pyinstaller --noconfirm main.py```
 
-Be sure to copy qml files [see your runtime errors]
+Execute via CLI so you can see errors...Be sure to copy qml folders ansd files [see your runtime errors]
 
-
+After functions without error do:
 
 ```pyinstaller --windowed --noconfirm main.py```
 
