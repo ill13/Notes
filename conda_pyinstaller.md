@@ -1,5 +1,24 @@
+### 20210919
+#### Working with PySide6
+
+conda create -n pyside python=3.7.2
+activate pyside
+conda install -c conda-forge pyside6  [doesn't work]
+pip install pyside6 [does work]
+conda install -c conda-forge pyinstaller
+
+
+Be sure to copy qml files [see your runtime errors]
+
+
+
+```pyinstaller --windowed --noconfirm main.py
+
+
+
+
 ### 20210705
-- Build your own pysinstaller
+- Build your own pyinstaller
 - Use 4.2 or 3.6
 - Pyinstaller spec files have an “excludes” field, or something like that name - I recommend excluding numpy, PIL, and Scipy with pygame.
 
