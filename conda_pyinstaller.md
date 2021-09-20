@@ -12,7 +12,7 @@ Be sure to copy qml files [see your runtime errors]
 
 
 
-```pyinstaller --windowed --noconfirm main.py
+```pyinstaller --windowed --noconfirm main.py```
 
 
 
