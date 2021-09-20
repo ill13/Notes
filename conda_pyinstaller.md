@@ -1,12 +1,12 @@
 ### 20210919
 #### Working with PySide6
-
+```powershell
 conda create -n pyside python=3.7.2
 activate pyside
 conda install -c conda-forge pyside6  [doesn't work]
 pip install pyside6 [does work]
 conda install -c conda-forge pyinstaller
-
+```
 
 Be sure to copy qml files [see your runtime errors]
 
