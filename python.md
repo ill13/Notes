@@ -1,3 +1,28 @@
+### Files and Folders
+
+```python
+
+import os
+cur_dir = os.path.dirname(os.path.realpath(__file__)) 
+
+image_path=(f'{cur_dir}\images\\')
+
+ignore_strings = ['done','out','v_'] # list of words that miight be in filenames we do not want to process
+file_extension=['jpg','png']
+
+for filename in os.listdir(image_path):
+    if filename.endswith(tuple(file_extension)):
+        if not any(word in filename for word in ignore_strings):
+            input_file=f'{image_path}{filename}'
+            output_file=f'{image_path}/out/v_{filename}'
+            print(f'{input_file} running...')
+            do_stuff(input_file,output_file)         
+        else:
+            print(f'Skipping {filename}...')
+           
+```
+
+
 ### Lists and Dictionaries
 
 A **list** is just a bunch of items stored in a comma separated, well, list. You use square bracket to encapsulate (start/end) them.
