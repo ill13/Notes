@@ -1,3 +1,19 @@
+### 2021-11-11
+### Conda cleaning
+
+Backup your conda installs with:
+```conda env export > env_name.yml ```
+
+Clean up some conda extras [couple of gigs]
+```conda clean --all```
+
+####Start blastin'
+
+Rename the ```anaconda3``` folder to ```anaconda3_backup```
+
+Rebuild your conda environments:
+```conda env create -f env_name.yml```
+
 ### 20210919
 #### Working with PySide6
 ```powershell
