@@ -46,7 +46,13 @@ To add a word, such as ```some_text```, at the **end of each line**:
 
 
 
+***
+#### Notepad++ Remove duplicates
 
+To remove duplicate lines. This only sort of works...  
 
-
+- Press Ctrl + H, 
+- Use ```^(.*?)$\s+?^(?=.*^\1$)```
+- In search mode check "Regular expression" 
+- Choose on replace all
 
