@@ -1,11 +1,8 @@
 ### Adding drivers to a win10 image with PowerShell
 
-Copy your USB key contents to a folder..like
+Copy your USB key contents to a folder..like```c:\iso```.
 
-```cmd
-c:\iso
-```
-
+Start PowerShell as admin
 ```powershell
 Get-WindowsImage -ImagePath "C:\iso\sources\install.wim"
 ```
