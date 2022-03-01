@@ -1,6 +1,8 @@
-### Adding drivers to a win10 image with PowerShell
+### Adding drivers to a win10 image with PowerShell [and cmd]
 
-Copy your USB key contents to a folder..like```c:\iso```.
+This is a mish-mash of ```PowerShell``` and ```cmd```, however it does work.
+
+Copy your existing USB image key contents to a folder..like ```c:\iso```.
 
 Start PowerShell as admin
 ```powershell
@@ -25,8 +27,6 @@ Add-WindowsDriver -Path C:\mount\ -Driver C:\export-drivers -Recurse
 ```
 
 
-
-
 Once that completes, rebuild the image with this:
 ```powershell
 Dismount-WindowsImage -Path C:\mount\ –Save
@@ -36,7 +36,11 @@ if above fails, do;
 Dismount-WindowsImage -Path C:\mount\ –Discard
 
 
+Now split the ```install.wim``` into fat32 happy chunks
 
+```cmd
+Dism /Split-Image /ImageFile:C:\iso\sources\install.wim /SWMFile:C:\iso\sources\install.swm /FileSize:3999     
+```
 
 
 Are you using the "Deployment Tools Command Prompt" found in the start menu?  
@@ -44,3 +48,5 @@ Are you using the "Deployment Tools Command Prompt" found in the start menu?
 ```cmd
 oscdimg -n -m -bc:\ISO\boot\etfsboot.com C:\ISO C:\new_win10pro_image.iso
 ```
+
+The '```-bc:\ISO\boot\etfsboot.com```' part is correct. I don't understand the command and path having no space between the '-b' and 'c' in 'c:\ISO\boot\etfsboot.com'
