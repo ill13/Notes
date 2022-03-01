@@ -49,4 +49,4 @@ Are you using the "Deployment Tools Command Prompt" found in the start menu?
 oscdimg -n -m -bc:\ISO\boot\etfsboot.com C:\ISO C:\new_win10pro_image.iso
 ```
 
-The '```-bc:\ISO\boot\etfsboot.com```' part is correct. I don't understand the command and path having no space between the '-b' and 'c' in 'c:\ISO\boot\etfsboot.com'
+The ```-bc:\ISO\boot\etfsboot.com``` part is correct. I don't understand the command and path having no space between the ```-b`` and 'c' in 'c:\ISO\boot\etfsboot.com'
