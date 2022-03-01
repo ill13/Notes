@@ -4,18 +4,20 @@ This is a mish-mash of ```PowerShell``` and ```cmd```, however it does work.
 
 Copy your existing USB image key contents to a folder..like ```c:\iso```.
 
-Start PowerShell as admin
+Start PowerShell as admin and enter this:
 ```powershell
 Get-WindowsImage -ImagePath "C:\iso\sources\install.wim"
 ```
 
-Mount the contents as an image. Verify index matches
+Mount the contents as an image. Verify index matches the output of the previous command. 
 ```powershell
 Mount-WindowsImage -Path C:\mount\ -ImagePath "C:\iso\sources\install.wim" -Index 1
 ```
 
-If the machine you are using has the drivers you need, you can use this to export all of the drivers that are installed.
-Delete any drivers you don't want or need from the folder after exporting
+If the machine you are using has the drivers you need, you can use the following command to export all of the drivers that are installed. This is pretty powerful in that any or all drivers for **all machines** in your environment can be stuffed into here. This can certainly include printer drivers to alleviate *PintNightmare* ssues on new installs.
+
+Delete any drivers you don't want or need from the folder after exporting.
+
 ```powershell
 Export-WindowsDriver –Online -Destination c:\export-drivers
 ```
