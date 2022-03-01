@@ -14,7 +14,7 @@ Mount the contents as an image. Verify index matches the output of the previous 
 Mount-WindowsImage -Path C:\mount\ -ImagePath "C:\iso\sources\install.wim" -Index 1
 ```
 
-If the machine you are using has the drivers you need, you can use the following command to export all of the drivers that are installed. This is pretty powerful in that any or all drivers for **all machines** in your environment can be stuffed into here. This can certainly include printer drivers to alleviate *PintNightmare* ssues on new installs.
+If the machine you are using has the drivers you need, you can use the following command to export all of the drivers that are installed. This is pretty powerful in that any or all drivers for **all machines** in your environment can be stuffed into here. This can certainly include printer drivers to alleviate *PrintNightmare* ssues on new installs.
 
 Delete any drivers you don't want or need from the folder after exporting.
 
