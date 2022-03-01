@@ -33,8 +33,9 @@ Dismount-WindowsImage -Path C:\mount\ –Save
 ```
 if above fails, do;
 
+```powershell
 Dismount-WindowsImage -Path C:\mount\ –Discard
-
+```
 
 Now split the ```install.wim``` into fat32 happy chunks
 
