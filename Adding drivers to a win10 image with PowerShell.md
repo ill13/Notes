@@ -51,8 +51,7 @@ Are you using the "Deployment Tools Command Prompt" found in the start menu?  If
 oscdimg -n -m -bc:\iso\boot\etfsboot.com C:\iso C:\img_win10_20H2.iso
 ```
 
-The ```-bc:\iso\boot\etfsboot.com``` part is correct. I don't understand the command and path having no space between the ```-b``` and ```c``` in that command
-
+The ```-bc:\iso\boot\etfsboot.com``` part is correct. I don't understand why the command and path have no space [between the ```-b``` and ```c:```]. However, it works as is so I'm not going to worry about it.
 
 Burn with **Rufus**
 
