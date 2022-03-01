@@ -47,7 +47,13 @@ Dism /Split-Image /ImageFile:C:\iso\sources\install.wim /SWMFile:C:\iso\sources\
 Are you using the "Deployment Tools Command Prompt" found in the start menu?  
 
 ```cmd
-oscdimg -n -m -bc:\ISO\boot\etfsboot.com C:\ISO C:\new_win10pro_image.iso
+oscdimg -n -m -bc:\iso\boot\etfsboot.com C:\iso C:\img_win10_20H2.iso
 ```
 
-The ```-bc:\ISO\boot\etfsboot.com``` part is correct. I don't understand the command and path having no space between the ```-b``` and ```c``` in that command
+The ```-bc:\iso\boot\etfsboot.com``` part is correct. I don't understand the command and path having no space between the ```-b``` and ```c``` in that command
+
+
+Burn with **Rufus**
+
+![image](https://user-images.githubusercontent.com/10509740/156253753-b9f0896a-5f7b-4396-add5-f642a8c87a0d.png)
+
