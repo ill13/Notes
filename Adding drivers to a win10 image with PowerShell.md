@@ -43,8 +43,9 @@ Now split the ```install.wim``` into fat32 happy chunks
 Dism /Split-Image /ImageFile:C:\iso\sources\install.wim /SWMFile:C:\iso\sources\install.swm /FileSize:3999     
 ```
 
+Go back into the ```C:\iso\sources\``` folder and move/delete *install.wim* to somewhere else; you won't need it for this tutorial
 
-Are you using the "Deployment Tools Command Prompt" found in the start menu?  
+Are you using the "Deployment Tools Command Prompt" found in the start menu?  If you aren't, *oscdimg* will fail
 
 ```cmd
 oscdimg -n -m -bc:\iso\boot\etfsboot.com C:\iso C:\img_win10_20H2.iso
