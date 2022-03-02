@@ -59,3 +59,20 @@ Burn with **Rufus**
 
 ![image](https://user-images.githubusercontent.com/10509740/156253753-b9f0896a-5f7b-4396-add5-f642a8c87a0d.png)
 
+
+
+### Adding drivers to *boot.wim*
+
+*boot.wim* is where the 'startup drivers' are loaded. If a SATA driver is not available, the ```autoattend.xml``` will fail.
+
+You should have an 'unpacked' ISO from above. In there should be a the *boot.wim*. We are going to mount only that small image with:
+
+```DISM /Mount-Wim /WimFile:C:\iso\sources\boot.wim /Index:1 /MountDir:C:\mount\```
+
+
+At some point you alrady got your SATA drivers from the manufacturer. Put those in *c:\sata_drivers*
+```DISM /Image:C:\mount\ /Add-Driver /Driver:C:\sata_drivers /recurse```
+
+
+Commit the changes and burn
+```DISM /Unmount-Wim /MountDir:C:\mount\ /Commit```
