@@ -67,12 +67,18 @@ Burn with **Rufus**
 
 You should have an 'unpacked' ISO from above. In there should be a the *boot.wim*. We are going to mount only that small image with:
 
-```DISM /Mount-Wim /WimFile:C:\iso\sources\boot.wim /Index:1 /MountDir:C:\mount\```
+```cmd
+DISM /Mount-Wim /WimFile:C:\iso\sources\boot.wim /Index:1 /MountDir:C:\mount\
+```
 
 
 At some point you alrady got your SATA drivers from the manufacturer. Put those in *c:\sata_drivers*
-```DISM /Image:C:\mount\ /Add-Driver /Driver:C:\sata_drivers /recurse```
+```cmd
+DISM /Image:C:\mount\ /Add-Driver /Driver:C:\sata_drivers /recurse
+```
 
 
 Commit the changes and burn
-```DISM /Unmount-Wim /MountDir:C:\mount\ /Commit```
+```cmd
+DISM /Unmount-Wim /MountDir:C:\mount\ /Commit
+```
