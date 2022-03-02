@@ -39,13 +39,13 @@ if above fails, do;
 Dismount-WindowsImage -Path C:\mount\ –Discard
 ```
 
-Now split the ```install.wim``` into fat32 happy chunks
+Now split the ```install.wim``` into **FAT32** happy chunks.
 
 ```cmd
 Dism /Split-Image /ImageFile:C:\iso\sources\install.wim /SWMFile:C:\iso\sources\install.swm /FileSize:3999     
 ```
 
-Go back into the ```C:\iso\sources\``` folder and move/delete *install.wim* to somewhere else; you won't need it for this tutorial
+Go back into the ```C:\iso\sources\``` folder and move *install.wim* to somewhere else; you won't need it for this tutorial. Keep it accessible because you'll need it if you want to mount your image data again. 
 
 Are you using the "Deployment Tools Command Prompt" found in the start menu?  If you aren't, *oscdimg* will fail
 
