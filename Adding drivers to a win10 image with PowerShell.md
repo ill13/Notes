@@ -102,9 +102,9 @@ We are going to mount only that small *boot.wim* image with:
 DISM /mount-image /imagefile:C:\iso\sources\boot.wim /index:1 /mountdir:C:\mount\
 ```
 
-At some point you shoud've downloaded and unpacked the SATA drivers from the manufacturer. Put those in *c:\sata_drivers*
+At some point you should've downloaded and unpacked the SATA drivers from the manufacturer. Put those in *c:\sata_drivers*
 
-Add them to your *boot.wim* wuth:
+Add them to your *boot.wim* with:
 ```cmd
 DISM /Image:C:\mount\ /Add-Driver /Driver:C:\sata_drivers /recurse
 ```
