@@ -78,10 +78,17 @@ DISM /Image:C:\mount\ /Add-Driver /Driver:C:\sata_drivers /recurse
 ```
 
 
-Commit the changes and burn
+Commit the changes
 ```cmd
 DISM /Unmount-Wim /MountDir:C:\mount\ /Commit
 ```
+
+Create a new image
+```cmd
+oscdimg -n -m -bc:\iso\boot\etfsboot.com C:\iso C:\img_win10_20H2.iso
+```
+
+Burn
 
 
 ### Adding drivers to *boot.wim* IMAGE 
@@ -105,5 +112,10 @@ Commit the changes
 ```cmd
 DISM /unmount-image /mountdir:c:\mount /commit 
 ```
+Create a new image
+```cmd
+oscdimg -n -m -bc:\iso\boot\etfsboot.com C:\iso C:\img_win10_20H2.iso
+```
+
 Burn
 
