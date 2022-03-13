@@ -131,8 +131,7 @@
     "sync.autoUpload": true,
     "sync.forceUpload": true,
     "remote.SSH.remotePlatform": {
-        "107.191.110.231": "linux",
-        "games.local": "windows"
+        "8.8.8.8.8": "linux"
     },
     "editor.defaultFormatter": "ms-python.vscode-pylance",
     "editor.detectIndentation": false,
