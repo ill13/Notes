@@ -1,4 +1,4 @@
-### Powershell
+# Powershell bits
 
 So you want to run a script -and you are already in an elevated shell?
 
