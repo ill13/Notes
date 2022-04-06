@@ -56,7 +56,9 @@ $tmp_date = Get-Date -DisplayHint Date
 Write-Host "`nTask completed at $($tmp_date)... `n"
 ```
 ### Special Notes:
-```$?`` is the True / False status of the last command
-```-WarningAction SilentlyContinue``` Supress warnnings
-```$excluded_users = @("amy","bob","chuck")``` make an array
-```| Where-Object { $excluded_users -notcontains $_ } ``` exclude items from an array
+
+- ```$?``` is the True / False status of the last command
+- ```$_``` is the same as Javascript's ```this``` or Python's ```self```
+- ```-WarningAction SilentlyContinue``` Supress warnnings
+- ```$excluded_users = @("amy","bob","chuck")``` make an array
+- ```| Where-Object { $excluded_users -notcontains $_ } ``` exclude items from an array
