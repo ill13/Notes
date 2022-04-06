@@ -55,3 +55,8 @@ New-NetFirewallRule -DisplayName 'RDPPORTLatest-UDP-In' -Profile 'Public' -Direc
 $tmp_date = Get-Date -DisplayHint Date
 Write-Host "`nTask completed at $($tmp_date)... `n"
 ```
+### Special Notes:
+```$?`` is the True / False status of the last command
+```-WarningAction SilentlyContinue``` Supress warnnings
+```$excluded_users = @("amy","bob","chuck")``` make an array
+```| Where-Object { $excluded_users -notcontains $_ } ``` exclude items from an array
