@@ -1,3 +1,12 @@
+### 2022-04-13
+
+Manually starting something via command line and making sure you have the corect environment
+```
+& C:/Users/ill13/miniconda3/envs/gpt2/python.exe
+```
+- Also verify you are in teh correct folder / path
+- setup.py install
+
 ### 2021-11-11
 ### Conda cleaning
 
@@ -7,7 +16,7 @@ Backup your conda installs with:
 Clean up some conda extras [couple of gigs]
 ```conda clean --all```
 
-####Start blastin'
+#### Start blastin'
 
 Rename the ```anaconda3``` folder to ```anaconda3_backup```
 
