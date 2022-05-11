@@ -1,3 +1,24 @@
+### 2202-05-11
+
+Conda stil lnor working in PowerShell
+
+- From start menu, fire up *Anaconda PowerShell*
+- Start VSCode in the nw PS terminal with ```code``` + ```enter```
+- Once VSCode starts, try to execute any python script [to start a ps terminal]
+- In the new ps window type ```conda init```
+- Restart VSCode
+
+You may need to create a ```profile.ps1``` file in  *C:\Users\[USER]\Documents\PowerShell\profile.ps1* with the contents of:
+
+```powershell
+#region conda initialize
+# !! Contents within this block are managed by 'conda init' !!
+(& "C:\Users\ill13\anaconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | Invoke-Expression
+#endregion
+```
+
+
+
 ### 2022-02-26
 
 ## Conda new install
