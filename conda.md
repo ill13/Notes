@@ -1,11 +1,11 @@
 ### 2202-05-11
 
-Conda stil lnor working in PowerShell
+Conda stil not working in PowerShell
 
 - From start menu, fire up *Anaconda PowerShell*
 - Start VSCode in the nw PS terminal with ```code``` + ```enter```
-- Once VSCode starts, try to execute any python script [to start a ps terminal]
-- In the new ps window type ```conda init```
+- Once VSCode starts, try to execute any python script [to start a PS terminal window]
+- In the new PS window type ```conda init```
 - Restart VSCode
 
 You may need to create a ```profile.ps1``` file in  *C:\Users\[USER]\Documents\PowerShell\profile.ps1* with the contents of:
