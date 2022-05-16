@@ -45,6 +45,7 @@ If you only want to temporarily mount the drive, stop at here. If you'd like to 
 
 - Download the template you'd like to use
 - No fucking network, make sure you chose ```DHCP```
+- 192.168.0.13/24. Need that /24
 
 
 
