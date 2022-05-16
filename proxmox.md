@@ -112,8 +112,38 @@ echo "deb [arch=$( dpkg --print-architecture ) signed-by=/usr/share/keyrings/jel
 - If you've already mounted an NTFS drive with your media files you can select them during the initial setup
 - 
 
+### Setup a Samba share
+We are assuming you already setup a drive that you'd like to share. Like the NTFS section from above
+
+This will setup an open share at *\\\\[hostname or IP]\public*
+
+```
+apt install samba smbclient cifs-utils
+```
+
+Do some editing with ```nano /etc/samba/smb.conf``` and add the following at the end 
+
+```
+[public]
+   comment = Public Folder
+   path = /srv/data
+   writable = yes
+   guest ok = yes
+   guest only = yes
+   force create mode = 775
+   force directory mode = 775
+
+```
+Finally
+
+```systemctl restart nmbd```
+
+
+
 ***
-### Variuos links
+### Various links
+
+https://computingforgeeks.com/how-to-configure-samba-share-on-debian/
 
 https://www.datahoards.com/installing-pi-hole-inside-a-proxmox-lxc-container/
 
