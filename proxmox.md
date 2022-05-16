@@ -138,7 +138,17 @@ Finally
 
 ```systemctl restart nmbd```
 
+### Add Guacamole
 
+- Create a new lxc with Debian 11
+- The easiest way to install Guac
+
+```
+wget https://git.io/fxZq5 -O guac-install.sh
+chmod +x guac-install.sh
+./guac-install.sh
+```
+Use TOTP
 
 ***
 ### Various links
