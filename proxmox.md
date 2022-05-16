@@ -158,22 +158,4 @@ https://virtualizeeverything.com/2021/09/28/adding-a-samba-share-to-proxmox-as-s
 https://www.jamescoyle.net/how-to/2019-proxmox-4-x-bind-mount-mount-storage-in-an-lxc-container
 
 
-***
-## Install and configure Jellyfin LXC [Don't do this]
 
-Follow the prompts to install
-
-
-Landing Page:    http://192.168.0.249                     
-WebDAV:          https://192.168.0.249                    
-Jellyfin:        http://192.168.0.249:8096 or https://192.168.0.249:12322              
-Web shell:       https://192.168.0.249:12320              
-Webmin:          https://192.168.0.249:12321              
-SMB/CIFS:        \\192.168.0.249 (ports 139/445)          
-SSH/SFTP:        root@192.168.0.249 (port 22)             
-
-Now 201
-
-
-
-P```
