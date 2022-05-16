@@ -114,6 +114,8 @@ echo "deb [arch=$( dpkg --print-architecture ) signed-by=/usr/share/keyrings/jel
 ***
 ### Variuos links
 
+https://www.datahoards.com/installing-pi-hole-inside-a-proxmox-lxc-container/
+
 https://www.linuxcapable.com/how-to-install-jellyfin-media-server-on-debian-11/
 
 https://ashu.io/blog/media-server-lxc-proxmox/
