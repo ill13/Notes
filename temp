@@ -1,24 +1,58 @@
 
+sudo -i
+nano /etc/netplan/net.yaml
+
+# Let NetworkManager manage all devices on this system
+network:
+ version: 2
+ renderer: NetworkManager
+
+ ethernets:
+  enp1s0:
+   dhcp4: false
+   routes:
+   - to: default
+     via: 172.30.72.254
+   nameservers:
+    addresses:
+    - 8.8.8.8
+    - 1.1.1.1
+   addresses:
+   - 172.30.72.149/24
+
+ vlans:
+  veth0:
+   id: 0
+   link: enp1s0
+   addresses: 
+   - 192.168.100.200/24
 
 
-apt install ifupdown
+nano /etc/apt/sources.list
 
-delete/rename any .yaml file in /etc/netplan - the important part is to be sure the file extension is not yaml
+3) Add the following line at the bottom of the file and save it.
+
+deb http://drbl.sourceforge.net/drbl-core drbl stable
+
+4) Download the GPG Key for the new clonezilla source repository by issuing the following command at your shell prompt:
+
+wget http://drbl.sourceforge.net/GPG-KEY-DRBL
+
+5) Add the key with the following command:
+
+apt-key add GPG-KEY-DRBL
+
+6) Make sure operating system is fully updated by issuing the following command at your shell prompt:
+
+apt-get update
 
 
 
-auto enp1s0
-iface enp1s0 inet static
-address 172.30.72.149
-netmask 255.255.255.0
-gateway 172.30.72.254
+apt-get install drbl
 
-dns-search localnet
-dns-nameservers 172.30.0.230 8.8.8.8
 
-#Virtual Interface
+/usr/sbin/drblsrv -i
 
-auto enp1s0:0
-iface enp1s0:0 inet static
-address 192.168.100.200
-netmask 255.255.255.0
+/usr/sbin/drblpush -i
+
+
