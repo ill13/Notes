@@ -1,0 +1,24 @@
+
+
+
+apt install ifupdown
+
+delete/rename any .yaml file in /etc/netplan - the important part is to be sure the file extension is not yaml
+
+
+
+auto enp1s0
+iface enp1s0 inet static
+address 172.30.72.149
+netmask 255.255.255.0
+gateway 172.30.72.254
+
+dns-search localnet
+dns-nameservers 172.30.0.230 8.8.8.8
+
+#Virtual Interface
+
+auto enp1s0:0
+iface enp1s0:0 inet static
+address 192.168.100.200
+netmask 255.255.255.0
