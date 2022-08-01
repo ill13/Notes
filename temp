@@ -1,3 +1,6 @@
+drblpush -c /etc/drbl/drblpush.conf
+
+
 
 sudo -i
 nano /etc/netplan/net.yaml
