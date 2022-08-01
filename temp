@@ -4,6 +4,7 @@
 
 drblpush -c /etc/drbl/drblpush.conf
 
+drbl-ocs -b -l en_US.UTF-8 -y1 -p poweroff select_in_client
 
 
 sudo -i
