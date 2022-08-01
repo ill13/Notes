@@ -1,3 +1,13 @@
+Install 22.04 LTS
+
+Setup 2 NICs via netplan. I used the internal NIC and a USB NIC.
+
+Possibly purge netcat-openbsd and use netcat-traditional
+
+sudo -i
+nano /etc/netplan/net.yaml
+
+
 
 
 
@@ -7,8 +17,7 @@ drblpush -c /etc/drbl/drblpush.conf
 drbl-ocs -b -l en_US.UTF-8 -y1 -p poweroff select_in_client
 
 
-sudo -i
-nano /etc/netplan/net.yaml
+
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
  
 # Let NetworkManager manage all devices on this system
