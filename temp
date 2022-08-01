@@ -51,8 +51,48 @@ apt-get update
 apt-get install drbl
 
 
-/usr/sbin/drblsrv -i
 
-/usr/sbin/drblpush -i
+4. sudo apt-get update
+5. sudo apt-get install drbl
+6. sudo mkdir /clonezilla
+7. sudo /usr/sbin/drblsrv -i
 
+    n put enter
+    n put enter
+    n put enter
+    1 put enter
+
+8. sudo /usr/sbin/drblpush -i
+
+    put enter
+    put enter
+    put enter
+    put enter
+    Y put enter
+    n put enter
+    n put enter
+    1 put enter
+    14 put enter (client count)
+    put enter
+    2 put enter
+    1 put enter
+    /clonzilla put enter
+   N put enter
+   N put enter
+   Y put enter
+   N put enter
+   Y put enter
+   put enter
+   Y put enter
+
+9.sudo /usr/sbin/dcs
+
+	> all select all the clients
+	> clonezilla-start start_clonezilla_mode
+	> Beginner Beginner mode: Accept the default option
+	> select-in-client Choose save/restore in client (unicast only)
+	> -y1 Server always provide clone mode - default Clonezilla
+	> -p poweroff Shutdown client when the clone finishes
+
+10.boot source computer and clone it
 
