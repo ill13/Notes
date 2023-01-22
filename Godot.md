@@ -3,8 +3,8 @@
 https://developer.android.com/studio
 
 - Download the commandline SDK from google
-- unpack it to C:\Android\
-- run this:
+- Unpack it to C:\Android\
+- Run this:
 ```
 ./sdkmanager --sdk_root=C:\Android\cmdline-tools "platform-tools" "build-tools;30.0.3" "platforms;android-31" "cmdline-tools;latest" "cmake;3.10.2.4988404" "ndk;21.4.7075529"
 ```
