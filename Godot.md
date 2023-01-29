@@ -1,3 +1,21 @@
+#### Groups!
+You can get an Array with each member of your group doing:
+
+`var my_group_members = get_tree().get_nodes_in_group("my_group")`
+
+You can also call an specific method for all members:
+
+`get_tree().call_group("my_group","my_function",args...)`
+
+If you need to do something with your group:
+```
+for member in get_tree().get_nodes_in_group("my_group"):
+    member.my_function(args...)
+```
+
+
+
+
 #### Setup for Android APK export
 
 - Download the commandline SDK from google: https://developer.android.com/studio
