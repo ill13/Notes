@@ -1,3 +1,13 @@
+
+Training on SD: https://github.com/Excalibro1/fast-stable-diffusionwik/wiki/fast-stable-diffusion-wiki
+
+Vector Art on SD: https://github.com/GeorgLegato/Txt2Vectorgraphics
+
+Camera Framing: https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/
+
+
+
+
 Links for AI
 
 https://minimaxir.com/2019/09/ctrl-fake-news/
