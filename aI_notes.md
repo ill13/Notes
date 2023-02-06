@@ -7,8 +7,8 @@ Camera Framing: https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots
 
 
 
-
-Links for AI
+***
+[OLD] Links for AI
 
 https://minimaxir.com/2019/09/ctrl-fake-news/
 
