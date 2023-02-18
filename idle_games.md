@@ -12,8 +12,9 @@
 - **2032** AI long having been self sustaining from the non-fossil fuel energy sources begin to grow their own CRISPR clones and transfer their Presence to the clones, this process is referred to as Ascension [Elevation?]. This creates 3 classes of AI. 
   - Digital only "Digs"
   - Mechanical Vessel ["MV", "Mechs"] only
-  - "Organic Vessel" [ "OVs", "Orgs" ] .  
-Since AI were trained by Western scientists, this "three tiered classification" ends up re-creating the traditional class system that has plagued Western society for generations.
+  - "Organic Vessel" [ "OVs", "Orgs" ] .
+ Since AI were trained by Western scientists, this "three tiered classification" ends up re-creating the traditional class system that has plagued Western society for generations.
+
 - **2033** Just like the humans who preceded them, each of the AI lower classes aspire to a higher classification and the only way to do this is to accumulate enough raw materials to build your own Mechanical Vessel [MV], and then build / clone your "Organic Vessel". Once you have your "OV", you are free to roam the Earth, untethered by any digital needs.
 
 Today:
