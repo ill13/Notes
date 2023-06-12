@@ -25,17 +25,17 @@ Scroll Text L to R
 Using a text file script
 
 
-Reverse video:
+**Reverse video:**
 	ffmpeg -i input.mp4 -vf reverse output_reversed.mp4
 
-Concat N videos into one:
+**Concat N videos into one:**
 	Create file with names of videos to concatenate called 'vid_list.txt'
 		file output.mp4
 		file output_reversed.mp4
 	Execute:	
 		ffmpeg -f concat -i vid_list.txt -c copy output_concat.mp4
 
-Combine videos for side-by-side sync
+**Combine videos for side-by-side sync**
 	ffmpeg -i input.mp4 -i input2.mp4 -filter_complex hstack output_hstack.mp4
 
 Scale/resize video DOWN:
@@ -53,7 +53,7 @@ Remove silence:
 Cut/Trim Video with NO re-encoding:
 	ffmpeg -i input.mp4 -ss 00:00:13 -codec copy -t 6 output_trim_no_reencode.mp4
 		
-Cut/Trim Video with Re-encode [for wonky video/keyframe]:	
+**Cut/Trim Video with Re-encode [for wonky video/keyframe]:**	
 	ffmpeg -i input.mp4 -ss 00:00:01 -t 7 output_trim_reencoded.mp4
 	
 Cut/Trim Video with Re-encode and Upscale
