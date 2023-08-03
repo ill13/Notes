@@ -1,3 +1,10 @@
+### 2023-08-03
+
+For meta / fb AudioGen
+
+```conda create -n audiogen python=3.9```
+
+
 ### 2202-05-11
 
 Conda stil not working in PowerShell
