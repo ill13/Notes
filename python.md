@@ -23,9 +23,11 @@ for filename in os.listdir(image_path):
 ```
 
 
-### Lists and Dictionaries
+### Lists, Dictionaries, and Tuples
 
-A **list** is just a bunch of items stored in a comma separated, well, list. You use square bracket to encapsulate (start/end) them.
+- A **list** is just a bunch of items stored in a comma separated, well, list. You use square ```[]``` brackets to encapsulate (start/end) a list.
+- A **dictionary** is like JSON. It contains a *word* and its *definition*, this is more often referred to as a *Key/Value* pair. You use squiggly ```{}``` brackets to encapsulate a dictionary.
+- A **tuple** is like a list, however it's only used when you absolutely don't ever want to change the contents [immutable or *read-only*]. You use a parenthesis ```()``` to encapsulate a tuple.
 
 - Uses ```[]``` *square brackets* to start/end a list
 - Uses ```,``` *commas* to separate values
