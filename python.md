@@ -29,8 +29,10 @@ for filename in os.listdir(image_path):
 - A **dictionary** is like JSON. It contains a *word* and its *definition*, this is more often referred to as a *Key/Value* pair. You use squiggly ```{}``` brackets to encapsulate a dictionary.
 - A **tuple** is like a list, however it's only used when you absolutely don't ever want to change the contents [immutable or *read-only*]. You use a parenthesis ```()``` to encapsulate a tuple.
 
-- Uses ```[]``` *square brackets* to start/end a list
-- Uses ```,``` *commas* to separate values
+```
+list = [item1, item2, item3]
+dictionary = {"color": "red", "number": 10, "fruit":"apple"}
+tuple = ("FF0000","00FF00","0000FF")
 
 So here's a simple list:
 
