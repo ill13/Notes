@@ -33,12 +33,13 @@ for filename in os.listdir(image_path):
 list = [item1, item2, item3]
 dictionary = {"color": "red", "number": 10, "fruit":"apple"}
 tuple = ("FF0000","00FF00","0000FF")
+```
 
 So here's a simple list:
 
 ```list_of_names = ['Alice','Bob','Chuck']```
 
-Now say you want to *iterate* (which is a fancy word for 'repeat' or 'loop') through that list you would start with something like:
+Now say you want to *iterate* (which is a fancy word for 'look at each item one at a time') through that list you would start with something like:
 
  ```python
 for each_name in list_of_names:
