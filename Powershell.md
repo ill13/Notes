@@ -55,6 +55,7 @@ New-NetFirewallRule -DisplayName 'RDPPORTLatest-UDP-In' -Profile 'Public' -Direc
 $tmp_date = Get-Date -DisplayHint Date
 Write-Host "`nTask completed at $($tmp_date)... `n"
 ```
+
 ### Special Notes:
 
 - ```$?``` is the True / False status of the last command
@@ -62,3 +63,21 @@ Write-Host "`nTask completed at $($tmp_date)... `n"
 - ```-WarningAction SilentlyContinue``` Supress warnnings
 - ```$excluded_users = @("amy","bob","chuck")``` make an array
 - ```| Where-Object { $excluded_users -notcontains $_ } ``` exclude items from an array
+
+### Create a directory tree
+
+```
+tree /f /a > tree.txt
+```
+
+or
+
+```
+tree /f /a | clip
+
+```
+
+`| clip` means pipe / copy results to clipboard.
+
+
+  
